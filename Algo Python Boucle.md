@@ -122,7 +122,7 @@ for iterator in lst:
 **Example:**
 
 ```py
-numbers = [0, 1, 2, 3, 4, 5]
+numbers = [0, 1, 2, 3, 4, 5] # type list
 for number in numbers: # number is temporary name to refer to the list's items, valid only inside this loop
     print(number)       # the numbers will be printed line by line, from 0 to 5
 ```
@@ -351,7 +351,21 @@ In python when statement is required (after semicolon), but we don't like to exe
 for number in range(6):
     pass
 ```
-
+```
+n=int(input("entrer un nombre : "))
+for i in range(n):
+  fiche ={
+      'nom':"",
+      'app':""  ,
+      'grade':[20,14,12,20,20,6]
+  }
+  #calcul de la moyenne
+  s=0.
+  for x in fiche['grade']:
+      s=s+x
+  moyenne=s/6
+  print(moyenne)
+```
 🌕 You established a big milestone, you are unstoppable. Keep going! You have just completed day 10 challenges and you are 10 steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
 
 ## 💻 Exercises: Day 10
